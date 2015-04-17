@@ -12,9 +12,15 @@
             "homepage": "https://github.com/mtdowling"
         }
     ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/pbwebmedia/ringphp"
+        }
+    ],
     "require": {
         "php": ">=5.4.0",
-        "guzzlehttp/ringphp": "~1.0"
+        "guzzlehttp/ringphp": "dev-master"
     },
     "require-dev": {
         "ext-curl": "*",
